@@ -42,7 +42,7 @@ if ( checkAge(age) ) {
 * Courses:
     + Udemy ([web development](https://www.udemy.com/course/webdeveloper/))
 
-## Languges
+## Languages
 ***********************
 * English - is in the range of **A1** to **A2**
 * Russian - **native**
