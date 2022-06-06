@@ -3,6 +3,7 @@
 
 $main_color: #157698
 $main_bg_color: #E1E3E5
+$main_text_color: #666666
 $footer_color: #4C4E50
 
 
@@ -27,6 +28,32 @@ h1
         font-size: 40px
         color: #A9A9A9
 
+h2
+    margin-top: 1px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    color: $main_color
+    text-transform: uppercase
+
+h3
+    display: flex
+    align-items: center
+
+    font-family: 'Poppins'
+    font-style: normal
+    font-weight: 700
+    font-size: 18px
+    text-transform: uppercase
+    color: $main_color
+    &::before
+        content: ""
+        margin-right: 30px
+        width: 8px
+        height: 26px
+        background: $main_color    
+
 .header_block
     display: flex
     &_photo
@@ -48,24 +75,17 @@ h1
             background: $main_color  
             &_avatar
     &_info
-        padding: 70px 80px 0px 40px
-        &_subtitle
-            margin-top: 1px
-            font-family: 'Roboto'
-            font-style: normal
-            font-weight: 400
-            font-size: 16px
-            color: $main_color
-            text-transform: uppercase
+        padding: 70px 80px 0px 40px                   
         &_menu
             display: flex
             flex-wrap: wrap
             justify-content: space-evenly
-            margin-top: 30px
+
+            margin-top: 17px
             padding: 0
-            &_point
-                
+            &_point               
                 padding: 7px
+
                 list-style: none
                 font-family: 'Roboto'
                 font-style: normal
@@ -78,12 +98,28 @@ h1
 .split
     display: flex
     height: 40px
-    &_sq1
-
-        width: 340px
-        background: #FFFFFF
-    &_sq2
+    &_sq
         margin-left: 90px
         width: 910px
         height: 40px
         background: $main_color
+
+.main-block_container
+    display: flex
+    aside
+        width: 340px
+    main
+        width: 660px
+        padding: 25px 40px 25px 0
+        background: $main_bg_color
+        .about_me
+            p
+                padding-left: 38px
+
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 20px
+                color: $main_text_color
+            
