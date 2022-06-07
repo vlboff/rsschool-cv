@@ -52,7 +52,10 @@ h3
         margin-right: 30px
         width: 8px
         height: 26px
-        background: $main_color    
+        background: $main_color 
+
+li
+    margin-top: 5px   
 
 .header_block
     display: flex
@@ -60,7 +63,7 @@ h3
         display: flex
         align-items: flex-end
         flex-direction: row-reverse
-        padding-left: 90px
+        padding-left: 70px
 
         width: 340px
         height: 300px
@@ -103,18 +106,64 @@ h3
     display: flex
     height: 40px
     &_sq
-        margin-left: 90px
-        width: 910px
+        margin-left: 70px
+        width: 930px
         height: 40px
         background: $main_color
 
 .main-block_container
     display: flex
+    min-height: 740px
+    height: 1px
     aside
+        display: flex
+        flex-direction: column
+        justify-content: space-between
         width: 340px
+        height: 100%
+        padding: 30px 25px 5px 70px
+
+        .education
+            &_list
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 25px
+                color: $main_text_color
+                a
+                    text-decoration: none
+                    color: $main_color
+        .skills
+            &_list
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 25px
+                color: $main_text_color
+        .contacts
+            &_list
+                padding-left: 14px
+
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 25px
+                color: $main_text_color
+                list-style: none
+                &_img
+                    margin-right: 5px
+                    width: 14px
+                    height: 14px
+                a
+                    color: $main_color
+
+
     main
         width: 660px
-        padding: 25px 40px 5px 0
+        padding: 30px 40px 5px 0
         background: $main_bg_color
         .about_me
             p
@@ -124,18 +173,21 @@ h3
                 font-style: normal
                 font-weight: 400
                 font-size: 14px
-                line-height: 20px
+                line-height: 25px
                 color: $main_text_color
         .experience
             &_list
                 padding-left: 38px
+
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 25px
+                color: $main_text_color
                 &_anchor
-                    font-family: 'Roboto'
-                    font-style: normal
-                    font-weight: 400
-                    font-size: 14px
-                    line-height: 20px
                     color: $main_text_color
+                    
         .code
             &_bg
                 width: 94%
@@ -157,7 +209,7 @@ h3
                 font-style: normal
                 font-weight: 400
                 font-size: 14px
-                line-height: 20px
+                line-height: 25px
                 color: $main_text_color
 
                
