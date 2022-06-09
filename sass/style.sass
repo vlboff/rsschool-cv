@@ -77,6 +77,7 @@ li
             height: 240px
             background: $main_color  
             &_avatar
+                height: 180px
     &_info
         padding: 70px 40px 0px 40px                   
         &_menu
@@ -97,9 +98,18 @@ li
                 text-transform: uppercase
                 a
                     color: rgba(200, 200, 200, 1)
-                    transition: 0.4s all
+                    &::after
+                            content: ""
+                            display: block
+                            width: 0%
+                            height: 2px
+                            background: #FFFFFF
+                            transition: 0.4s all
                     &:hover
                         color: #FFFFFF
+                        &::after
+                            width: 100%
+                            
                         
 
 .split
@@ -134,6 +144,8 @@ li
                 a
                     text-decoration: none
                     color: $main_color
+                    &:hover
+                        color: #25acdd
         .skills
             &_list
                 font-family: 'Roboto'
@@ -159,7 +171,9 @@ li
                     height: 14px
                 a
                     color: $main_color
-
+                    &:hover
+                        color: #25acdd
+                        
 
     main
         width: 660px
@@ -186,7 +200,13 @@ li
                 line-height: 25px
                 color: $main_text_color
                 &_anchor
-                    color: $main_text_color
+                    color: $main_color
+                    &:hover
+                        color: #25acdd
+
+                           
+                        
+
                     
         .code
             &_bg
