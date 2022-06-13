@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/ico/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_block">
+                <div class="header_block_photo">
+                    <div class="header_block_photo_sq">
+                        <img src="assets/img/photo.png" alt="photo" class="header_block_photo_sq_avatar">
+                    </div>
+                </div>
+                <div class="header_block_info">
+                    <h1 class="header_block_info_title">ULADZIMIR <span>BARBIKAU</span></h1>
+                    <h2 class="header_block_info_subtitle">junior front-end developer</h2>
+                    <nav>
+                        <ul class="header_block_info_menu">
+                            <li class="header_block_info_menu_point"><a href="#about_me">about me</a></li>
+                            <li class="header_block_info_menu_point"><a href="#education">education</a></li>
+                            <li class="header_block_info_menu_point"><a href="#skills">skills</a></li>
+                            <li class="header_block_info_menu_point"><a href="#experience">experience</a></li>
+                            <li class="header_block_info_menu_point"><a href="#code">code example</a></li>
+                            <li class="header_block_info_menu_point"><a href="#languages">languages</a></li>
+                            <li class="header_block_info_menu_point"><a href="#contacts">contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="split">
+        <div class="container">
+            <div class="split_sq"></div>
+        </div>
+    </div>
+    
+    <div class="main-block">
+        <div class="container">
+            <div class="main-block_container">
+                <aside>
+                    <section class="education" id="education">
+                        <h3>education</h3>
+                        <ul class="education_list">
+                            <li>University:
+                                <ul>
+                                    <li>Belarusian National Technical University (building faculty)</li>
+                                </ul>
+                            </li>
+                            <li>Courses:
+                                <ul>
+                                    <li>Udemy (<a href="https://www.udemy.com/course/webdeveloper/">web development</a>)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="skills" id="skills">
+                        <h3>skills</h3>
+                        <ul class="skills_list">
+                            <li>HTML/CSS (Bootstrap, SASS/SCSS)</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                            <li>Adobe Photoshop, Adobe Illustrator, Figma (for web development)</li>
+                        </ul>
+                    </section>
+
+                    <section class="contacts" id="contacts">
+                        <h3>contacts</h3>
+                        <ul class="contacts_list">
+                            <li><img class="contacts_list_img" src="assets/svg/phone-logo.svg" alt="phone"> <a href="tel:+375291639189">+375(29)163-91-89</a></li>
+                            <li><img class="contacts_list_img" src="assets/svg/mail-logo.svg" alt="mail"> <a href="mailto:vl.barbikov@gmail.com">vl.barbikov@gmail.com</a></li>
+                            <li><img class="contacts_list_img" src="assets/svg/github-logo.svg" alt="github"> <a href="https://github.com/vlboff">vlboff</a></li>
+                            <li><img class="contacts_list_img" src="assets/svg/discord-logo.svg" alt="discord"> Uladzimir Barbikau (@vlboff)</li>
+                        </ul>
+                    </section>
+                </aside>
+
+                <main>
+                    <section class="about_me" id="about_me">
+                        <h3>about me</h3>
+                        <p>Currently I work as PM, but this position doesn't give me a chance to make something with my own hands and to see the result. So, my goal now is is to get modern, actual profession. I think FE development is exactly what I need.</p>
+                    </section>
+
+                    <section class="experience" id="experience">
+                        <h3>experience</h3>
+                        <ul class="experience_list">
+                            <li><a class="experience_list_anchor" href="https://github.com/vlboff/rsschool-cv">RS school task "CV"</a></li>
+                        </ul> 
+                    </section>
+
+                    <section class="code" id="code">
+                        <h3>code example</h3>
+                            <div class="code_bg">
+                                <pre>
+    function checkAge(age) {
+    if (age > 18) {
+        return true;
+    } else {
+        return confirm('Where are your parents?');
+    }
+    }
+    
+    let age = prompt('How old are you?', 18);
+    
+    if ( checkAge(age) ) {
+    alert( 'Accessed' );
+    } else {
+    alert( 'Access closed' );
+    }
+                                </pre>
+                            </div>
+                    </section>
+
+                    <section class="languages" id="languages">
+                        <h3>languages</h3>
+                        <ul class="languages_list">
+                            <li>English - is in the range of <strong>A1</strong> to <strong>A2</strong></li>
+                            <li>Russian - <strong>native</strong></li>
+                        </ul> 
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_container">
+                <div class="footer_container_left">
+                    <div class="footer_container_left_date"><div class="footer_container_left_date_c">&copy;</div>REATED IN 2022</div>
+                </div>
+            <div class="footer_container_right">
+                <a href="https://github.com/vlboff"><img src="assets/svg/github_gray.svg" alt="github" class="footer_container_right_github"></a>
+                <a href="https://rs.school/js/"><img src="assets/svg/rs_school_js_gray.svg" alt="rs_school" class="footer_container_right_rs"></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -42,6 +42,13 @@ if ( checkAge(age) ) {
 * Courses:
     + Udemy ([web development](https://www.udemy.com/course/webdeveloper/))
 
+## Skills
+***********************
+* HTML/CSS (Bootstrap, SASS/SCSS)
+* Git, GitHub
+* VS Code
+* Adobe Photoshop, Adobe Illustrator, Figma (for web development)
+
 ## Languages
 ***********************
 * English - is in the range of **A1** to **A2**
